@@ -1,0 +1,46 @@
+/**
+CSS apply on admin-setting file
+**/
+
+.nm-settings-wrapper {
+  border: 2px solid #d1d2d473 ;
+  padding: 25px;
+  width: 99%;
+  background-color: #ffffff;
+}
+.label-text {
+	font-style: normal;
+  font-weight: bold;
+  display: block;
+  font-size: 15px !important;
+}
+.wqt-desc-text {
+  font-size: 14px  !important;
+  font-style: italic;
+  margin-left: 53px  !important ;
+}
+.wqt-text-option{
+  margin-top: 0px;
+}
+.wqt-select-design {
+  width: 85%;
+  background-color: #c4cacf42;
+  border-radius: 6px;
+}
+.alert_display {
+	display: none;
+}
+.save_alert {
+  padding: 7px;
+  background-color: #efd9d9;
+  margin-left: 88px;
+  margin-top: -37px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-left: 9px solid #46b450;
+}
+.tb-control{
+  table-layout: fixed;
+}
+/*end of this file css*/

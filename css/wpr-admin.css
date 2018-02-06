@@ -1,0 +1,141 @@
+/**
+ * ============================
+ * admin page releated css
+ * ============================
+**/
+
+/*custom checkbox design add-question file*/
+.label-control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.label-control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  background: #a8b4a8;
+}
+.label-control input:checked ~ .control__indicator {
+  background: #2aa1c0;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.label-control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+/*end custom checkbox design*/
+
+/*====================================*/
+/*This css apply on Question metabox*/
+input:focus {
+  background-color: #e7e4ea;
+  box-shadow: -1px -1px 1px #000;
+}
+.inner-crad{
+  max-width: 100%;
+  background: #eceaea83;
+}
+.inner-crad:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background:linear-gradient(to right, #eeede98c, rgba(227, 227, 221, 0.84), #fffefd);
+ 
+}
+.check-control {
+  margin: 0 auto;
+  margin-top: 29px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.cross-btn-style {
+  margin: auto 0;
+  margin-top: 20px;
+  font-size: 26px;
+  color: red;
+  cursor: pointer;
+}
+.add-answer{
+  background-color: #ad9c9c;
+}
+.marks-style {
+  margin: 0px 0px 0px 269px;
+  width: 30%;
+}
+/*End the css apply on Question metabox and add-question file*/
+
+
+/*This css apply on quiz-result file*/
+/*=====================================*/
+.table-border-color {
+  background-color: #c8d9c1;
+}
+.display-ul {
+  display: inline-flex;
+  margin-left: -6px;
+  margin-top: 6px;
+  width: 100%;
+  text-align: center;
+}
+.Design-li {
+    margin-left: 13px;
+    background-color: #2828b887 !important;
+    color: white;
+    display: block;
+    /* margin: 0 auto; */
+    width: 25%;
+}
+.email_alert{
+     padding: 7px;
+    background-color: #dad4d496;
+    overflow: auto;
+}
+.email_alt_hide{
+  display: none;
+}
+.wqt-marks{
+  margin-top: -13px;
+  margin-left: 161px;
+  width: 58%;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.send_message_alert{
+  border-left: 6px solid #46b450;
+  padding: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: #efd9d9;
+  width: 57%;
+  margin-left: 12px;
+  margin-top: -29px;
+}
+.btn-email-style{
+  cursor: pointer;
+  display: block;
+  margin-right: -12px;
+}
+/*End of css quiz-result file*/
+ 
